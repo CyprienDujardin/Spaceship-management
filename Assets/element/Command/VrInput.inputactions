@@ -1,0 +1,76 @@
+{
+    "name": "VrInput",
+    "maps": [
+        {
+            "name": "ButtonVR",
+            "id": "962972ae-3523-4de6-932f-61d3b4abb8f1",
+            "actions": [
+                {
+                    "name": "Back",
+                    "type": "Button",
+                    "id": "8902ac0b-f870-473e-b3e5-c5339458c0f2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Forward",
+                    "type": "Button",
+                    "id": "7d448fd8-da97-467a-8a85-e94afcfaa6c5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9f1a552e-ae04-4da5-b5e1-9e39ad05e7ff",
+                    "path": "<ViveController>{RightHand}/{Back}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f3d753bd-42b2-45b2-a045-7474886c006f",
+                    "path": "<ViveController>{LeftHand}/{Back}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1e65b92a-02cf-462e-96d1-1b84388a2172",
+                    "path": "<ViveController>{RightHand}/{Cancel}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9a67dc44-23d4-4fe1-a5c4-97290be9954c",
+                    "path": "<ViveController>{LeftHand}/{Cancel}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Forward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
